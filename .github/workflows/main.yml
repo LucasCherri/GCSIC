@@ -16,9 +16,6 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Construir código
-        run: npm run build
-
       - name: Configurar Node.js
         uses: actions/setup-node@v2
         with:
